@@ -1,0 +1,27 @@
+{
+  "name": "Cerita di Sekitarmu - Submission 2",
+  "short_name": "Submission2",
+  "description": "Aplikasi berbagi cerita berbasis lokasi - Submission 2 Dicoding",
+  "start_url": "/submission-2/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "lightskyblue",
+  "orientation": "portrait-primary",
+  "scope": "/submission-2/",
+  "lang": "id",
+  "categories": ["social", "travel", "entertainment"],
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
