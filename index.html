@@ -1,0 +1,12 @@
+<!doctype html><html lang="id"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Cerita di Sekitarmu - Submission 2</title><link rel="manifest" href="./manifest.json"/><link rel="icon" href="./favicon.png"/><meta name="theme-color" content="lightskyblue"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="apple-mobile-web-app-title" content="Cerita di Sekitarmu"/><link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/><script>if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./sw.js")
+            .then((registration) => {
+              console.log("SW registered: ", registration);
+            })
+            .catch((registrationError) => {
+              console.log("SW registration failed: ", registrationError);
+            });
+        });
+      }</script><script defer="defer" src="./app.bundle.js"></script><link href="./app.css" rel="stylesheet"></head><body><a href="#main-content" class="skip-link" aria-label="Lewati ke Konten Utama">Lewati ke Konten Utama</a><header><div class="main-header container"><a class="brand-name" href="#/beranda">Cerita di Sekitarmu</a><nav id="navigation-drawer" class="navigation-drawer"><ul id="nav-list" class="nav-list"></ul></nav><button id="drawer-button" class="drawer-button">☰</button></div></header><main id="main-content" class="main-content" tabindex="-1"></main><script src="./app.bundle.js"></script></body></html>

@@ -1,0 +1,9 @@
+{
+  "name": "Cerita di Sekitarmu",
+  "short_name": "CeritaSekitar",
+  "description": "Aplikasi berbagi cerita berbasis lokasi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "lightskyblue"
+}
